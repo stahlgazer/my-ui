@@ -3,7 +3,7 @@ import { Copy } from "lucide-react";
 
 const Usage = () => {
   return (
-    <div className="ml-[350px] mt-2">
+    <div className="lg:ml-[350px] sm:ml-0">
       Usage: These React components require the following dependencies:{" "}
       <span className="font-semibold">
         TypeScript, TailwindCSS, Lucide-React

@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <div className="ml-[350px]">
+    <div className="ml-[210px] lg:ml-[350px] ">
       Introduction: MyUI presents a collection of type-safe components
       meticulously crafted for React using Tailwind CSS. MyUI offers a
       refreshingly uncomplicated solution, empowering you to express your
