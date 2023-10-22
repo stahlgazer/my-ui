@@ -3,13 +3,13 @@ import { Copy } from "lucide-react";
 
 const Usage = () => {
   return (
-    <div className="lg:ml-[350px] sm:ml-0 text-center m-14">
-      MyUI Usage: These React components require the following dependencies:{" "}
+    <div>
+      These React components require the following dependencies:{" "}
       <span className="font-semibold">
         TypeScript, TailwindCSS, Lucide-React
       </span>
 
-      <div className="bg-slate-200 w-1/2 p-2 rounded-lg flex justify-between m-auto my-4 ">
+      <div className="bg-slate-200 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between  my-4 m-auto">
         <pre className="text-fuchsia-500 ml-4">
           <code>npm install lucide-react</code>
         </pre>
@@ -22,7 +22,7 @@ const Usage = () => {
           <Copy />
         </button>
       </div>
-      <div className="bg-slate-200 w-1/2 p-2 rounded-lg flex justify-between m-auto my-4 ">
+      <div className="bg-slate-200 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between my-4 m-auto">
         <pre className="text-fuchsia-500 ml-4">
           <code>npm install -D typescript</code>
         </pre>
@@ -35,14 +35,15 @@ const Usage = () => {
           <Copy />
         </button>
       </div>
-      Tailwind installation depends on your framework and runtime, see docs:{" "}
-      <a
-        className="text-blue-300"
+      <p>Tailwind installation depends on your framework and runtime, see docs: <a
+        className="text-blue-300 hover:text-fuchsia-500"
         target="_blank"
         href="https://tailwindcss.com/docs/installation"
       >
         https://tailwindcss.com/docs/installation
-      </a>
+      </a></p>
+
+
       <p className="mt-8">
         Our component gallery beckons your exploration, granting you the
         privilege of hand-picking the theme that aligns with your vision.

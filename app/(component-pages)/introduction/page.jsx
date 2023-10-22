@@ -2,14 +2,12 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <div className="ml-[210px] lg:ml-[350px] text-center m-14">
-      <h2>MyUI presents a collection of type-safe components
+    <div>
+      <h2><span className="text-fuchsia-500">MyUI </span>presents a collection of type-safe components
         meticulously crafted for React using Tailwind CSS.
       </h2>
-      <p>
-        MyUI offers a
-        refreshingly uncomplicated solution, empowering you to express your
-        creative flair through a diverse array of component styles without the
+      <p className="lg:w-2/3 p-2 my-0 m-auto">
+        Create flair through a diverse array of component styles without the
         need for additional downloads or dependencies. Departing from conventional
         design norms, it embraces simplicity in its unadorned design elements and
         warmly welcomes users to choose the theme of components they would like to
@@ -20,7 +18,7 @@ const Introduction = () => {
         contribute your design to MyUI. Thank you and enjoy!
       </p>
       <Link href="/usage">
-        <button className="m-8">Usage</button>
+        <button className="transition ease-in-out m-8 border border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear">Get Started</button>
       </Link>
     </div>
   );
