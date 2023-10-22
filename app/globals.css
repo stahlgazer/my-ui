@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.retro {
+  color:#d946ef;
+}
+.sunny {
+  color:#f59e0b;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

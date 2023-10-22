@@ -4,7 +4,6 @@ import Sidebar from "@/components/sidebar";
 import Bottom from "@/components/bottom";
 import "./globals.css";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
