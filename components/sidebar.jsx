@@ -5,7 +5,7 @@ import SectionsList from "./sections-list";
 import Link from "next/link";
 
 const Sidebar = () => {
-    const data = {
+    const routes = {
         introduction: [{ name: "Introduction", href: "introduction" }, { name: "Usage", href: "usage" }],
         components: [{ name: "Accordion", href: "accordion" }, { name: "Alert", href: "alert" }, { name: "Avatar", href: "avatar" }, { name: "Badge", href: "badge" }, { name: "Button", href: "button" }, { name: "Card", href: "card" }, { name: "Checkbox", href: "checkbox" }, { name: "Sidebar", href: "sidebar" }, { name: "Dropdown", href: "dropdown" }, { name: "Image", href: "image" }, { name: "Input", href: "input" }, { name: "Slide", href: "slide" }, { name: "Modal", href: "modal" }, { name: "Newsletter", href: "newsletter" }, { name: "Radio", href: "radio" }, { name: "Select", href: "select" }, { name: "Tabs", href: "tabs" }, { name: "Textarea", href: "textarea" }, { name: "Tooltip", href: "tooltip" },]
     }
@@ -13,7 +13,7 @@ const Sidebar = () => {
     return (
         <>
             <nav
-                className="fixed z-40 top-0 left-0 lg:w-80 lg:h-full border-r bg-black space-y-8 sm:overflow-auto">
+                className="fixed z-40 top-0 left-0 lg:w-80 h-full border-r bg-black space-y-8 overflow-auto">
                 <div className="sticky top-0 space-y-8 bg-white">
                     <div className='h-20 flex items-center px-4 border-b md:px-8'>
                         <Link href='/' className='flex justify-center items-center'>
@@ -30,11 +30,11 @@ const Sidebar = () => {
                     <>
                         <div>
                             <Title>Getting Started</Title>
-                            <SectionsList items={data.introduction} />
+                            <SectionsList items={routes.introduction} />
                         </div>
                         <div>
                             <Title>Components</Title>
-                            <SectionsList items={data.components} />
+                            <SectionsList items={routes.components} />
                         </div>
                     </>
                 </div>
