@@ -1,5 +1,5 @@
 const Avatar = () => {
-    return <div></div>;
+    return <div>Avatar</div>;
   };
   export default Avatar;
   

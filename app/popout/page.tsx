@@ -1,4 +1,4 @@
 const Popout = () => {
-  return <div></div>;
+  return <div>Popout</div>;
 };
 export default Popout;

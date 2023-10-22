@@ -1,5 +1,5 @@
 const Badge = () => {
-    return <div></div>;
+    return <div>Badge</div>;
   };
   export default Badge;
   

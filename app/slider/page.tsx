@@ -1,5 +1,5 @@
 const Slider = () => {
-    return <div></div>;
+    return <div>Slider</div>;
   };
   export default Slider;
   
