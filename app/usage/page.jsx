@@ -1,9 +1,7 @@
 "use client";
-import { useThemeStore } from "@/components/select-theme";
 import { Copy } from "lucide-react";
 
 const Usage = () => {
-  const { theme } = useThemeStore();
   return (
     <div className="lg:ml-[350px] sm:ml-0 text-center m-14">
       MyUI Usage: These React components require the following dependencies:{" "}
@@ -12,27 +10,27 @@ const Usage = () => {
       </span>
 
       <div className="bg-slate-200 w-1/2 p-2 rounded-lg flex justify-between m-auto my-4 ">
-        <pre className={`${theme} ml-4`}>
+        <pre className="text-fuchsia-500 ml-4">
           <code>npm install lucide-react</code>
         </pre>
         <button
           onClick={() => {
             navigator.clipboard.writeText("npm install react-icons --save");
           }}
-          className="text-black hover:text-amber-500 focus:ring-2 focus:ring-green-400"
+          className="text-black hover:text-fuchsia-500 focus:ring-2 focus:ring-green-400"
         >
           <Copy />
         </button>
       </div>
       <div className="bg-slate-200 w-1/2 p-2 rounded-lg flex justify-between m-auto my-4 ">
-        <pre className="text-amber-800 ml-4">
+        <pre className="text-fuchsia-500 ml-4">
           <code>npm install -D typescript</code>
         </pre>
         <button
           onClick={() => {
             navigator.clipboard.writeText("npm install -D typescript");
           }}
-          className="text-black hover:text-amber-500 focus:ring-2 focus:ring-green-400"
+          className="text-black hover:text-fuchsia-500 focus:ring-2 focus:ring-green-400"
         >
           <Copy />
         </button>

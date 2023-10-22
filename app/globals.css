@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.retro {
-  color:#d946ef;
-}
-.sunny {
-  color:#f59e0b;
-}
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -46,10 +39,10 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(197, 157, 83);
+  background: rgb(217 70 239);;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(153, 116, 48);
+  background: rgb(217 70 239);
 }

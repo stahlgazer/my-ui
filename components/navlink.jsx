@@ -9,7 +9,7 @@ const NavLink = ({ children, href, className }) => {
     // pathname == `/${href}` ? console.log(href, "href") : null;
 
     return (
-        <Link href={href} className={pathname == `/${href}` ? `border-orange-500 text-orange-500 ${className} bg-gray-100` : `${className}`}>
+        <Link href={href} className={pathname == `/${href}` ? `border-fuchsia-500 text-fuchsia-500 focus:text-fuchsia-500 ${className} bg-gray-100` : `${className}`}>
             {children}
         </Link>
     );

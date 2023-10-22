@@ -8,7 +8,7 @@ const ComponentList = ({ items }) => (
                 <li key={idx}>
                     <NavLink
                         href={item?.href}
-                        className='block w-full py-2 px-4 border-l hover:border-amber-600 hover:text-gray-400 duration-150'>
+                        className='block w-full py-2 px-4 border-l hover:border-fuchsia-500 hover:text-gray-400 duration-150'>
                         {item?.name}
                     </NavLink>
                 </li>
