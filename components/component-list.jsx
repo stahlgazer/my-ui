@@ -1,8 +1,7 @@
 import NavLink from "./navlink";
 
-// Sections List
-const SectionsList = ({ items }) => (
-    
+const ComponentList = ({ items }) => (
+
     <div className='text-white px-4 md:px-8'>
         <ul>
             {items?.map((item, idx) => (
@@ -18,4 +17,4 @@ const SectionsList = ({ items }) => (
     </div>
 );
 
-export default SectionsList
+export default ComponentList

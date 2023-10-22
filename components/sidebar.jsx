@@ -1,13 +1,13 @@
 import Image from "next/image";
-import SelectBox from "./selectbox";
-import Title from "./title";
-import SectionsList from "./sections-list";
+import SelectTheme from "./select-theme";
+import Title from "./nav-title";
+import SectionsList from "./component-list";
 import Link from "next/link";
 
 const Sidebar = () => {
     const routes = {
         introduction: [{ name: "Introduction", href: "introduction" }, { name: "Usage", href: "usage" }],
-        components: [{ name: "Accordion", href: "accordion" }, { name: "Alert", href: "alert" }, { name: "Avatar", href: "avatar" }, { name: "Badge", href: "badge" }, { name: "Button", href: "button" }, { name: "Card", href: "card" }, { name: "Checkbox", href: "checkbox" }, { name: "Sidebar", href: "sidebar" }, { name: "Dropdown", href: "dropdown" }, { name: "Image", href: "image" }, { name: "Input", href: "input" }, { name: "Slide", href: "slide" }, { name: "Modal", href: "modal" }, { name: "Newsletter", href: "newsletter" }, { name: "Radio", href: "radio" }, { name: "Select", href: "select" }, { name: "Tabs", href: "tabs" }, { name: "Textarea", href: "textarea" }, { name: "Tooltip", href: "tooltip" },]
+        components: [{ name: "Accordion", href: "accordion" }, { name: "Alert", href: "alert" }, { name: "Avatar", href: "avatar" }, { name: "Badge", href: "badge" }, { name: "Button", href: "button" }, { name: "Card", href: "card" }, { name: "Checkbox", href: "checkbox" }, { name: "Dropdown", href: "dropdown" }, { name: "Image", href: "image" }, { name: "Input", href: "input" }, { name: "Modal", href: "modal" }, { name: "Newsletter", href: "newsletter" }, { name: "Radio", href: "radio" }, { name: "Select", href: "select" }, { name: "Sidebar", href: "sidebar" }, { name: "Slider", href: "slider" }, { name: "Tabs", href: "tabs" }, { name: "Textarea", href: "textarea" }, { name: "Tooltip", href: "tooltip" },]
     }
 
     return (
@@ -23,7 +23,7 @@ const Sidebar = () => {
 
                     </div>
                     <div className='px-4 md:px-8'>
-                        <SelectBox />
+                        <SelectTheme />
                     </div>
                 </div>
                 <div className='text-[0.9rem] space-y-6'>

@@ -1,5 +1,9 @@
 const Footer = () => {
-    return <div className="ml-80">Footer</div>
+  <div>
+    <footer>
+      <div></div>
+    </footer>
+    </div>;
 }
 
 export default Footer
