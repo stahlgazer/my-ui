@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Sidebar from "@/components/sidebar";
-import Footer from "@/components/footer";
+import Bottom from "@/components/bottom";
 import "./globals.css";
 
 
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Sidebar />
         {children}
-        <Footer />
+        <Bottom />
       </body>
     </html>
   );
