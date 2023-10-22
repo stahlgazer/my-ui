@@ -1,7 +1,3 @@
-import Sidebar from "./components/sidebar"
-
 export default function Home() {
-  return (
-      <div><Sidebar /></div>
-  )
+  return <div className="ml-80">Landing Page</div>;
 }
