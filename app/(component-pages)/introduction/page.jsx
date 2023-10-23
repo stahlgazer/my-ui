@@ -9,8 +9,8 @@ const Introduction = () => {
       <h2>The only collection of components you will need again.
       </h2>
       <p className="lg:w-2/3 p-2 my-0 m-auto">
-        Why <span className="text-fuchsia-500">MyUI </span>? The choice is in your hands to pick the style you want. Departing from conventional
-        design norms, choose the theme of components that you would like to
+        Why <span className="text-fuchsia-500">MyUI</span>? The choice is in your hands to pick the style you want. Departing from conventional
+        design norms, you get to choose the theme of components that you would like to
         use interchangeably. This collection of components serves as a way for
         you to add effortless and unique styling to your application while
         giving the control to easily make changes. Open source and free to use

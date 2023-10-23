@@ -1,13 +1,15 @@
 import { AlertCircle } from "lucide-react";
 
-export default function AlertExample() {
+const AlertExample = () => {
   return (
     <div
       role="alert"
-      className="flex items-center justify-center rounded-md border-2 border-black bg-[#bc95d4] p-5 px-8 font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] m750:px-5"
+      className="flex items-center justify-center rounded-md border-2 border-white bg-fuchsia-500 p-5 px-8 font-bold w-1/2 m-auto"
     >
       <AlertCircle className="mr-3 h-6 min-h-[24px] w-6 min-w-[24px]" />
-      Lorem ipsum dolor sit amet
+      Oh no, I&apos;m in danger!
     </div>
   );
-}
+};
+
+export default AlertExample;

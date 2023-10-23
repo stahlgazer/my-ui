@@ -7,7 +7,8 @@ export const useThemeStore = create((set) => ({
     setTheme: (newTheme) => set({ theme: newTheme }),
 }));
 
-const SelectTheme = () => {
+
+export default function SelectTheme() {
     const { theme, setTheme } = useThemeStore();
 
     const handleThemeChange = (e) => {
@@ -26,5 +27,3 @@ const SelectTheme = () => {
             </select>
         </div>)
 };
-
-export default SelectTheme

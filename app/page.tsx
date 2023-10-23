@@ -13,12 +13,12 @@ export default function Home() {
         className="animate-bounce"
       />
       <h1>
-        Amazingly Simple Type-Safe Components for React using TailwindCSS.
+        Amazingly Simple Components for React using TailwindCSS.
         <br></br>
-        Choose Between Multiple Themes
+        Choose Between Your Favorite Themes
       </h1>
       <Link href="/introduction">
-        <button className="transition ease-in-out m-8 border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear">
+        <button className="animate-background-shine transition ease-in-out m-8 border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear">
           Documentation
         </button>
       </Link>

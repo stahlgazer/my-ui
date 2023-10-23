@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { MoveDown } from "lucide-react";
+import Link from "next/link";
 
 const Accordion = () => {
   const [showContent, setShowContent] = useState(false);
@@ -33,9 +34,9 @@ const Accordion = () => {
       <div
         ref={contentRef}
         style={{ height: showContent ? `${contentHeight}` : "0" }}
-        className="overflow-hidden rounded-[5px] bg-slate-500 font-bold transition-[height] ease-in-out"
+        className="overflow-hidden rounded-[5px] bg-blue-500 font-bold transition-[height] ease-in-out"
       >
-        <p className="p-5">Accordion Content</p>
+        <p className="p-5">BOOM SHAKALAKA!</p>
       </div>
     </div>
   );
