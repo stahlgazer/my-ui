@@ -1,3 +1,3 @@
 export default function Checkbox() {
-  return <div>CHeckbox</div>;
+  return <div>Checkbox</div>;
 }
