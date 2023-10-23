@@ -5,7 +5,7 @@ import logo from "@/app/myui.png"
 const Introduction = () => {
   return (
     <div>
-      <Image alt="logo" src={logo} width={200} height={200} className="m-auto"/> 
+      <Image alt="logo" src={logo} width={250} height={250} className="m-auto animate-pulse"/> 
       <h2><span className="text-fuchsia-500">MyUI </span>presents a collection of type-safe components
         meticulously crafted for React using Tailwind CSS.
       </h2>
