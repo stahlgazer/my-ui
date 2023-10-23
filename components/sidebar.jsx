@@ -1,7 +1,7 @@
 import Image from "next/image";
-import myui from "@/app/myui.png"
+import logo from "@/app/myui.png"
 import Title from "./nav-title";
-import SectionsList from "./component-list";
+import ComponentList from "./component-list";
 import Link from "next/link";
 
 export default function Sidebar() {
@@ -17,7 +17,7 @@ export default function Sidebar() {
                 <div className="sticky top-0 space-y-8">
                     <div className='h-20 flex items-center px-4 border-b md:px-8 bg-black'>
                         <Link href='/' className="m-auto ">
-                            <Image alt="my-ui logo" src={myui} width={100} height={100} />
+                            <Image alt="my-ui logo" src={logo} width={100} height={100} />
                         </Link>
 
                     </div>
@@ -26,11 +26,11 @@ export default function Sidebar() {
                     <>
                         <div>
                             <Title>Getting Started</Title>
-                            <SectionsList items={routes.introduction} />
+                            <ComponentList items={routes.introduction} />
                         </div>
                         <div>
                             <Title>Components</Title>
-                            <SectionsList items={routes.components} />
+                            <ComponentList items={routes.components} />
                         </div>
                     </>
                 </div>

@@ -16,7 +16,7 @@ export default function Home() {
         Amazingly Simple React Components using TailwindCSS.
       </h1>
       <Link href="/introduction">
-        <button className="animate-pulse transition ease-in-out m-8 border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear ">
+        <button className="transition ease-in-out m-8 border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear ">
           Documentation
         </button>
       </Link>

@@ -1,6 +1,6 @@
 "use client";
 import { Copy } from "lucide-react";
-import Information from "@/app/(component-pages)/usage/information"
+import Information from "@/app/(document-pages)/usage/information"
 import Link from "next/link";
 
 export default function Usage() {
