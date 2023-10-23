@@ -10,7 +10,7 @@ export default function Usage() {
       <span className="font-semibold">
         TailwindCSS, Lucide-React
       </span>
-      <div className="bg-slate-200 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between  my-4 m-auto">
+      <div className="bg-slate-800 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between  my-4 m-auto">
         <pre className="text-fuchsia-500 ml-4">
           <code>npm install lucide-react</code>
         </pre>
@@ -18,7 +18,7 @@ export default function Usage() {
           onClick={() => {
             navigator.clipboard.writeText("npm install react-icons --save");
           }}
-          className="text-black hover:text-fuchsia-500 focus:ring-2 focus:ring-green-400"
+          className="text-white hover:text-fuchsia-500 focus:ring-2 focus:ring-green-400"
         >
           <Copy />
         </button>
