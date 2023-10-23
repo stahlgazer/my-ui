@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/app/myui.png";
+import logo from "@/public/myui.png";
 import Link from "next/link";
 
 export default function Home() {

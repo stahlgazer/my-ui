@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/app/myui.png"
+import logo from "@/public/myui.png";
 
 export default function Introduction() {
   return (

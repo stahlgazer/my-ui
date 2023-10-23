@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/app/myui.png"
+import logo from "@/public/myui.png"
 import Title from "./nav-title";
 import ComponentList from "./component-list";
 import Link from "next/link";
