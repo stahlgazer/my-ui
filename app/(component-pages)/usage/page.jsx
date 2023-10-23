@@ -8,7 +8,7 @@ export default function Usage() {
     <div>
       These React components require the following dependencies:{" "}
       <span className="font-semibold">
-        TypeScript, TailwindCSS, Lucide-React
+        TailwindCSS, Lucide-React
       </span>
       <div className="bg-slate-200 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between  my-4 m-auto">
         <pre className="text-fuchsia-500 ml-4">
@@ -23,19 +23,7 @@ export default function Usage() {
           <Copy />
         </button>
       </div>
-      <div className="bg-slate-200 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between my-4 m-auto">
-        <pre className="text-fuchsia-500 ml-4">
-          <code>npm install -D typescript</code>
-        </pre>
-        <button
-          onClick={() => {
-            navigator.clipboard.writeText("npm install -D typescript");
-          }}
-          className="text-black hover:text-fuchsia-500 focus:ring-2 focus:ring-green-400"
-        >
-          <Copy />
-        </button>
-      </div>
+      
       <p>Tailwind installation depends on your framework and runtime, see docs: <a
         className="text-blue-300 hover:text-fuchsia-500"
         target="_blank"

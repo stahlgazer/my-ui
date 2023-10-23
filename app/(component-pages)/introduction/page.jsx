@@ -8,6 +8,9 @@ export default function Introduction() {
       <Image alt="logo" src={logo} width={125} height={125} className="m-auto animate-pulse" />
       <h2>The only collection of components you will need again.
       </h2>
+      <p className="text-white font-semibold bg-gradient-to-r from-red-500 via-fuchsia-500 to-sky-500 py-2 px-4 rounded-md mt-6 border shadow-md shadow-gray-300 max-w-sm m-auto my-4">
+        Choose Your Component Style
+      </p>
       <p className="lg:w-2/3 p-2 my-0 m-auto">
         Why <span className="text-fuchsia-500">MyUI</span>? The choice is in your hands to pick the style you want. Departing from conventional
         design norms, you get to choose the theme of components that you would like to

@@ -1,13 +1,14 @@
 export default function Card() {
   return (
-    <div className="w-[250px] rounded-md border-2 border-black bg-[#bc95d4] font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-      <div className="border-b-2 border-black p-4">
+    <div className="w-[250px] rounded-sm border border-white bg-fuchsia-500 font-bold m-auto">
+      <div className="border-b-2 border-white p-4">
         <h2 className="text-lg">Title</h2>
       </div>
-      <div className="p-4">
-        <p>Paragraph</p>
-        <p>Paragraph</p>
-        <p>Paragraph</p>
+      <div className="p-4 text-sm">
+        <h4>Sub-Heading</h4>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
       </div>
     </div>
   );
