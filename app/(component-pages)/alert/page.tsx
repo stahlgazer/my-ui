@@ -1,13 +1,30 @@
-import { AlertCircle } from "lucide-react";
+import { AlertCircle, Check, XCircle } from "lucide-react";
 
 export default function Alert() {
   return (
-    <div
-      role="alert"
-      className="flex items-center justify-center rounded-md border-2 border-white bg-fuchsia-500 p-5 px-8 font-bold max-w-screen m-auto"
-    >
-      <AlertCircle className="mr-3 h-6 min-h-[24px] w-6 min-w-[24px]" />
-      Oh no, I&apos;m in danger!
-    </div>
+    <section className="flex flex-col gap-2">
+      <div
+        role="alert"
+        className="flex items-center justify-center rounded-md border-2 border-fuchsia-500 bg-black text-xs lg:text-base p-2 px-4 lg:p-4 lg:px-8 font-bold m-auto"
+      >
+        Subscribed
+        <Check className="ml-4 h-4 lg:h-6 animate-pulse text-green-500" />
+      </div>
+      <div
+        role="alert"
+        className="flex items-center justify-center rounded-md border-2 border-fuchsia-500 bg-black text-xs lg:text-base p-2 px-4 lg:p-4 lg:px-8 font-bold m-auto"
+      >
+        Failed
+        <XCircle className="ml-4 h-4 lg:h-6 animate-pulse text-red-500" />
+      </div>
+
+      <div
+        role="alert"
+        className="flex items-center justify-center rounded-md border-2 border-fuchsia-500 bg-black text-xs lg:text-base p-2 px-4 lg:p-4 lg:px-8 font-bold m-auto"
+      >
+        Warning
+        <AlertCircle className="ml-4 h-4 lg:h-6 animate-pulse text-yellow-500" />
+      </div>
+    </section>
   );
 }
