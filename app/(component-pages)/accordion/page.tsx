@@ -19,7 +19,7 @@ export default function Accordion() {
         role="button"
         aria-expanded={showContent}
         style={{ borderBottom: showContent ? "solid 2px" : "0px" }}
-        className="flex w-full items-center justify-between rounded-[5px] border-fuchsia-500 bg-black p-5 font-bold transition ease-in-out hover:text-fuchsia-500"
+        className="flex w-full items-center justify-between rounded-md border-fuchsia-500 bg-black p-3 font-bold transition ease-in-out hover:text-fuchsia-500"
         onClick={() => {
           setShowContent(!showContent);
         }}
@@ -33,9 +33,9 @@ export default function Accordion() {
       <div
         ref={contentRef}
         style={{ height: showContent ? `${contentHeight}` : "0" }}
-        className="overflow-hidden rounded-[5px] bg-black font-bold transition-[height] ease-in-out"
+        className="overflow-hidden rounded-md bg-black font-bold transition-[height] ease-in-out"
       >
-        <p className="p-5">BOOM SHAKALAKA!</p>
+        <p className="p-3 text-xs">HERE I AM</p>
       </div>
     </div>
   );
