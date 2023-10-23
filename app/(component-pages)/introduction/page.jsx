@@ -1,8 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/app/myui.png"
 
 const Introduction = () => {
   return (
     <div>
+      <Image alt="logo" src={logo} width={200} height={200} className="m-auto"/> 
       <h2><span className="text-fuchsia-500">MyUI </span>presents a collection of type-safe components
         meticulously crafted for React using Tailwind CSS.
       </h2>
@@ -18,7 +21,7 @@ const Introduction = () => {
         contribute your design to MyUI. Thank you and enjoy!
       </p>
       <Link href="/usage">
-        <button className="transition ease-in-out m-8 border border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear">Get Started</button>
+        <button className="transition ease-in-out m-8 border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear">Get Started</button>
       </Link>
     </div>
   );

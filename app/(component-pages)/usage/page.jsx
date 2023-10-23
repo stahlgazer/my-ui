@@ -1,5 +1,6 @@
 "use client";
 import { Copy } from "lucide-react";
+import Signup from "@/app/(component-pages)/usage/signup"
 
 const Usage = () => {
   return (
@@ -8,7 +9,6 @@ const Usage = () => {
       <span className="font-semibold">
         TypeScript, TailwindCSS, Lucide-React
       </span>
-
       <div className="bg-slate-200 w-5/6 lg:w-1/2 p-2 rounded-lg flex justify-between  my-4 m-auto">
         <pre className="text-fuchsia-500 ml-4">
           <code>npm install lucide-react</code>
@@ -42,15 +42,14 @@ const Usage = () => {
       >
         https://tailwindcss.com/docs/installation
       </a></p>
-
-
-      <p className="mt-8">
+      <p className="mt-8 text-gray-400 max-w-2xl m-auto">
         Our component gallery beckons your exploration, granting you the
         privilege of hand-picking the theme that aligns with your vision.
         Effortlessly integrate your chosen component directly into your project!
         It&apos;s essential to remember that these components are yours to
         mold—reusable and accessible, their potential is in your capable hands.
       </p>
+      <Signup />
     </div>
   );
 };
