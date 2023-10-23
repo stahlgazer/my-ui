@@ -7,7 +7,7 @@ export default function Avatar() {
       <Image
         alt="my-ui logo"
         src={avatar}
-        className={`w-[100px] h-[auto] rounded-full border-2 border-white bg-cover bg-center m-auto`}
+        className={`w-[100px] h-[auto] rounded-full border-2 border-fuchsia-500 bg-cover bg-center m-auto`}
       />
     </div>
   );
