@@ -1,6 +1,7 @@
 "use client";
 import { Copy } from "lucide-react";
-import Signup from "@/app/(component-pages)/usage/signup"
+import Information from "@/app/(component-pages)/usage/information"
+import Link from "next/link";
 
 const Usage = () => {
   return (
@@ -43,13 +44,16 @@ const Usage = () => {
         https://tailwindcss.com/docs/installation
       </a></p>
       <p className="mt-8 text-gray-400 max-w-2xl m-auto">
-        Our component gallery beckons your exploration, granting you the
+        If you would like to use another set of icons, feel free to replace them with ones of your choice. The purpose of <span className="text-fuchsia-500">MyUI </span> is granting you the
         privilege of hand-picking the theme that aligns with your vision.
         Effortlessly integrate your chosen component directly into your project!
         It&apos;s essential to remember that these components are yours to
         mold—reusable and accessible, their potential is in your capable hands.
       </p>
-      <Signup />
+      <Link href="/accordion">
+        <button className="transition ease-in-out m-8 border-2 border-fuchsia-500 rounded-lg p-2 hover:border-white hover:text-fuchsia-500 hover:ease-linear">Components</button>
+      </Link>
+      <Information />
     </div>
   );
 };

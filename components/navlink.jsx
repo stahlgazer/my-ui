@@ -5,13 +5,15 @@ import { usePathname } from "next/navigation";
 // NavLink component
 const NavLink = ({ children, href, className }) => {
     const pathname = usePathname();
-    // pathname == `/${href}` ? console.log(pathname, "path") : null;
-    // pathname == `/${href}` ? console.log(href, "href") : null;
 
     return (
-        <Link href={href} className={pathname == `/${href}` ? `border-fuchsia-500 text-fuchsia-500 focus:text-fuchsia-500 ${className} bg-gray-100` : `${className}`}>
+        <Link href={href}
+            // Check if it's the home page or a matching route
+            className={`${pathname === `/${href}` || (href === '/' && pathname === '/') ? 'border-fuchsia-500 text-fuchsia-500 focus:text-fuchsia-500 bg-gray-100' : ''
+                } ${className}`}>
             {children}
         </Link>
+
     );
 };
 

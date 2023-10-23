@@ -1,18 +1,4 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-
-const Signup = () => {
-
-    const form = useRef();
-    const sendEmail = (e) => {
-        e.preventDefault();
-        emailjs.sendForm('service_brq917p', 'template_drom70y', form.current, '3ddP1axhkwOzIVKBf')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
+const Information = () => {
 
     return (
         <section className="p-8">
@@ -28,4 +14,4 @@ const Signup = () => {
     )
 }
 
-export default Signup
+export default Information
