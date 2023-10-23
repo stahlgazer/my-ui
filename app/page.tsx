@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="ml-[160px] md:ml-[190px] lg:ml-[320px] text-center h-screen flex flex-col justify-center items-center">
+    <div className="ml-[160px] md:ml-[190px] lg:ml-[320px] text-center md:h-screen flex flex-col justify-center items-center">
       <Image
         alt="logo"
         src={logo}
