@@ -1,5 +1,3 @@
-const ImageCard = () => {
-    return <div>Images</div>;
-  };
-  export default ImageCard;
-  
+export default function ImageCard() {
+  return <div>Images</div>;
+}

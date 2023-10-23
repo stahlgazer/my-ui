@@ -1,4 +1,3 @@
-const Radio = () => {
-    return <div>Radio</div>;
-  };
-  export default Radio;
+export default function Radio() {
+  return <div>Radio</div>;
+}

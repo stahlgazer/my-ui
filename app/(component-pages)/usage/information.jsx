@@ -1,4 +1,4 @@
-const Information = () => {
+export default function Information() {
 
     return (
         <section className="p-8">
@@ -13,5 +13,3 @@ const Information = () => {
         </section>
     )
 }
-
-export default Information

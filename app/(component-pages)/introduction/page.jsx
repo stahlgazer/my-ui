@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "@/app/myui.png"
 
-const Introduction = () => {
+export default function Introduction() {
   return (
     <div>
       <Image alt="logo" src={logo} width={125} height={125} className="m-auto animate-pulse" />
@@ -24,4 +24,3 @@ const Introduction = () => {
   );
 };
 
-export default Introduction;

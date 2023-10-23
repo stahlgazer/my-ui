@@ -1,5 +1,3 @@
-const Dropdown = () => {
-    return <div>Dropdown</div>;
-  };
-  export default Dropdown;
-  
+export default function Dropdown() {
+  return <div>Dropdown</div>;
+}

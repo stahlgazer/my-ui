@@ -1,4 +1,5 @@
 import { Github } from 'lucide-react';
+
 export default function Bottom() {
   return (
     <div className="fixed bottom-0 right-0 text-white m-2">

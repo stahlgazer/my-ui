@@ -1,9 +1,8 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { MoveDown } from "lucide-react";
-import Link from "next/link";
 
-const Accordion = () => {
+export default function Accordion() {
   const [showContent, setShowContent] = useState(false);
   const [contentHeight, setContentHeight] = useState("0px");
   const contentRef = useRef<HTMLDivElement>(null);
@@ -40,6 +39,4 @@ const Accordion = () => {
       </div>
     </div>
   );
-};
-
-export default Accordion;
+}

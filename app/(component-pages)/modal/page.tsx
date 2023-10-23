@@ -1,4 +1,3 @@
-const Modal = () => {
+export default function Modal() {
     return <div>Modal</div>;
   };
-  export default Modal;

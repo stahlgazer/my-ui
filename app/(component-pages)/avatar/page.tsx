@@ -1,5 +1,3 @@
-const Avatar = () => {
-    return <div>Avatar</div>;
-  };
-  export default Avatar;
-  
+export default function Avatar() {
+  return <div>Avatar</div>;
+}

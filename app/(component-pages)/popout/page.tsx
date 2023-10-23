@@ -1,4 +1,3 @@
-const Popout = () => {
+export default function Popout() {
   return <div>Popout</div>;
-};
-export default Popout;
+}

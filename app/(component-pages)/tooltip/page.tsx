@@ -1,4 +1,3 @@
-const Tooltip = () => {
+export default function Tooltip() {
   return <div>Tooltip</div>;
-};
-export default Tooltip;
+}

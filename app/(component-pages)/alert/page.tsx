@@ -1,6 +1,6 @@
 import { AlertCircle } from "lucide-react";
 
-const AlertExample = () => {
+export default function Alert() {
   return (
     <div
       role="alert"
@@ -10,6 +10,4 @@ const AlertExample = () => {
       Oh no, I&apos;m in danger!
     </div>
   );
-};
-
-export default AlertExample;
+}

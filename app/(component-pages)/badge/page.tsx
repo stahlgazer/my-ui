@@ -1,5 +1,3 @@
-const Badge = () => {
-    return <div>Badge</div>;
-  };
-  export default Badge;
-  
+export default function Badge() {
+  return <div>Badge</div>;
+}

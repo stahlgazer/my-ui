@@ -3,7 +3,7 @@ import { Copy } from "lucide-react";
 import Information from "@/app/(component-pages)/usage/information"
 import Link from "next/link";
 
-const Usage = () => {
+export default function Usage() {
   return (
     <div>
       These React components require the following dependencies:{" "}
@@ -57,4 +57,4 @@ const Usage = () => {
     </div>
   );
 };
-export default Usage;
+

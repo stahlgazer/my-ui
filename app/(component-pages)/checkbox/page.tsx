@@ -1,5 +1,3 @@
-const Checkbox = () => {
-    return <div>CHeckbox</div>;
-  };
-  export default Checkbox;
-  
+export default function Checkbox() {
+  return <div>CHeckbox</div>;
+}
