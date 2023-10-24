@@ -18,7 +18,7 @@ export default function Dropdown() {
         onClick={() => {
           setIsActiveDropdown(!isActiveDropdown);
         }}
-        className="flex w-[200px] cursor-pointer items-center rounded-md border-2 border-fuchsia-500 bg-black px-7 py-3 font-bold"
+        className="flex w-[200px] cursor-pointer items-center rounded-md border-2 border-fuchsia-500 bg-black px-7 py-3"
       >
         <div className="mx-auto flex">
           Dropdown

@@ -7,7 +7,7 @@ export default function Card() {
         </h2>
       </div>
       <div className="p-4 text-sm">
-        <h4 className="text-base font-semibold underline decoration-fuchsia-500">
+        <h4 className="text-xl underline decoration-fuchsia-500">
           Card Sub-Title
         </h4>
         <p>Some Cool Stuff</p>
