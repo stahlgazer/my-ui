@@ -11,7 +11,7 @@ export default function Dropdown() {
   const [isActiveDropdown, setIsActiveDropdown] = useState(false);
 
   return (
-    <div className="relative m-auto">
+    <div className="relative">
       <button
         aria-haspopup="listbox"
         aria-expanded={isActiveDropdown}

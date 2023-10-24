@@ -3,13 +3,9 @@ import logo from "@/public/myui.png"
 import Title from "./nav-title";
 import ComponentList from "./component-list";
 import Link from "next/link";
+import { routes } from "@/data/routes";
 
 export default function Sidebar() {
-    const routes = {
-        introduction: [{ name: "Home", href: "/" }, { name: "Introduction", href: "introduction" }, { name: "Usage", href: "usage" }],
-        components: [{ name: "Accordion", href: "accordion" }, { name: "Alert", href: "alert" }, { name: "Avatar", href: "avatar" }, { name: "Badge", href: "badge" }, { name: "Button", href: "button" }, { name: "Card", href: "card" }, { name: "Dropdown", href: "dropdown" }, { name: "Image", href: "image-card" }, { name: "Input", href: "input" }, { name: "Loading", href: "loading" }, { name: "Modal", href: "modal" }, { name: "Newsletter", href: "newsletter" }, { name: "Radio", href: "radio" }, { name: "Select", href: "select" }, { name: "Popout", href: "popout" }, { name: "Slider", href: "slider" }, { name: "Tabs", href: "tabs" }, { name: "Textarea", href: "textarea" }, { name: "Tooltip", href: "tooltip" },]
-    }
-
     return (
         <>
             <nav

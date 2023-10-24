@@ -14,7 +14,7 @@ export default function Accordion() {
   }, [showContent]);
 
   return (
-    <div className="w-[225px] rounded-md border-2 border-fuchsia-500 m-auto">
+    <div className="w-[225px] rounded-md border-2 border-fuchsia-500">
       <button
         role="button"
         aria-expanded={showContent}
