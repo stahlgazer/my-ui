@@ -25,7 +25,7 @@ export default function Accordion() {
       </button>
       <div
         className={`overflow-hidden rounded-md bg-black transition-[height] ease-in-out ${
-          showContent ? "h-[auto]" : "h-0"
+          showContent ? "h-auto" : "h-0"
         }`}
       >
         <p
