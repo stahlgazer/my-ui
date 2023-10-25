@@ -1,3 +1,5 @@
-export default function Tooltip() {
-  return <div>Tooltip</div>;
+import Tooltip from "./tooltip";
+
+export default function TooltipPage() {
+  return <Tooltip />;
 }

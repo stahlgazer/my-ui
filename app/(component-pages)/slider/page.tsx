@@ -1,5 +1,5 @@
-export default function Slider() {
-    return <div>Slider</div>;
-  };
+import Slider from "./slider";
 
-  
+export default function SliderPage() {
+  return <Slider />;
+}

@@ -1,3 +1,5 @@
-export default function Textarea() {
-    return <div>Textarea</div>;
-  };
+import Textarea from "./textarea";
+
+export default function TextareaPage() {
+  return <Textarea />;
+}

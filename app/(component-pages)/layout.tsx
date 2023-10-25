@@ -11,6 +11,7 @@ export default function RootLayout({
   let next = ""; // next route
   let previous = ""; // previous route
   const pathname = usePathname();
+
   for (let i = 0; i < routes.components.length; i++) {
     if (`/${routes.components[i].href}` == pathname) {
       if (i == 0) {

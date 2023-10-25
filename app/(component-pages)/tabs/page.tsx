@@ -1,3 +1,5 @@
-export default function Tabs() {
-    return <div>Tabs</div>;
-  };
+import Tabs from "./tabs";
+
+export default function TabsPage() {
+  return <Tabs />;
+}

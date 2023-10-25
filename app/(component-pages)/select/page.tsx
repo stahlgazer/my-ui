@@ -1,4 +1,5 @@
-export default function Select() {
-    return <div>Select</div>;
-  };
- 
+import Select from "./select";
+
+export default function SelectPage() {
+  return <Select />;
+}

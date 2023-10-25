@@ -1,7 +1,5 @@
-export default function Badge() {
-  return (
-    <div className="rounded-full border-2 border-fuchsia-500 bg-black text-white shadow-sm shadow-white px-4 py-2 text-sm font-semibold">
-      Badge
-    </div>
-  );
+import Badge from "./badge";
+
+export default function BadgePage() {
+  return <Badge />;
 }

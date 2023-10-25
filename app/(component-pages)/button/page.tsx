@@ -1,7 +1,5 @@
-export default function Button() {
-  return (
-      <button className="animate-pulse transition ease-in-out border-2 bg-black border-fuchsia-500 rounded-md p-2 hover:text-fuchsia-500 hover:ease-linear">
-        Don&apos;t Touch Me
-      </button>
-  );
+import Button from "./button";
+
+export default function ButtonPage() {
+  return <Button />;
 }

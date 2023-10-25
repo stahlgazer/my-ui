@@ -1,3 +1,5 @@
-export default function Popout() {
-  return <div>Popout</div>;
+import Popout from "./popout";
+
+export default function PopoutPage() {
+  return <Popout />;
 }

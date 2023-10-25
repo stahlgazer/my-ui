@@ -1,3 +1,5 @@
-export default function Newsletter() {
-  return <div>Newsletter</div>;
+import Newsletter from "./newsletter";
+
+export default function NewsletterPage() {
+  return <Newsletter />;
 }
