@@ -1,4 +1,4 @@
-import NavLink from "./navlink";
+import NavLink from "./nav-link";
 
 export default function ComponentList({ routes }) {
     return (

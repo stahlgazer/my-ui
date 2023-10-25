@@ -18,13 +18,13 @@ export default function Dropdown() {
         onClick={() => {
           setIsActiveDropdown(!isActiveDropdown);
         }}
-        className="flex w-[200px] cursor-pointer items-center rounded-md border-2 border-fuchsia-500 bg-black px-7 py-3"
+        className="flex w-[200px] cursor-pointer items-center rounded-md border-2 border-fuchsia-500 bg-black px-7 py-3 hover:bg-fuchsia-500"
       >
         <div className="mx-auto flex">
           Dropdown
           <MoveDown
-            style={{ transform: `rotate(${isActiveDropdown ? "45deg" : "0"})` }}
-            className="ml-4 min-h-[24px] min-w-[24px] transition-transform ease-in-out"
+            style={{ transform: `rotate(${isActiveDropdown ? "180deg" : "0"})` }}
+            className="ml-4 transition ease-in-out"
           />
         </div>
       </button>

@@ -20,7 +20,7 @@ export default function Modal() {
         className="flex items-center gap-2 transition ease-in-out border-2 bg-black border-fuchsia-500 rounded-md p-2 hover:text-fuchsia-500 hover:ease-linear"
       >
         <p>Open Modal </p>
-        <Plus className="mt-1 h-5 animate-bounce" />
+        <Plus className="h-4" />
       </button>
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center ml-[160px] md:ml-[190px] lg:ml-[320px]">

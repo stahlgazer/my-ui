@@ -10,7 +10,7 @@ export default function Home() {
         src={logo}
         width={250}
         height={250}
-        className="animate-bounce"
+        className="animate-[wiggle_4s_ease-in-out_infinite] z-[-1]"
       />
       <h1 className="text-2xl font-bold underline decoration-fuchsia-500">
         Amazingly Simple React Components using TailwindCSS.
