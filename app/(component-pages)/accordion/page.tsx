@@ -8,7 +8,6 @@ export default function Accordion() {
   return (
     <div className="w-[225px] rounded-md border-2 border-fuchsia-500">
       <button
-        role="button"
         aria-expanded={showContent}
         className={`flex w-full items-center justify-between rounded-md border-fuchsia-500 bg-black p-3 transition ease-in-out hover:text-fuchsia-500 ${
           showContent ? "border-b-2" : ""
@@ -20,19 +19,16 @@ export default function Accordion() {
         Accordion
         <MoveDown
           style={{ transform: `rotate(${showContent ? "45deg" : "0"})` }}
-          className="ml-4 min-h-[24px] min-w-[24px] transition-transform ease-in-out"
+          className="ml-4 min-h-[24px] min-w-[24px] transition-transform ease-in-out "
         />
       </button>
       <div
-        className={`overflow-hidden rounded-md bg-black transition-[height] ease-in-out ${
-          showContent ? "h-auto" : "h-0"
-        }`}
+        className={`overflow-hidden rounded-md bg-black ${
+          showContent ? "h-[100px]" : "h-0"
+        } transition-all`}
       >
-        <p
-          className={`p-3 text-xs ${showContent ? "opacity-100" : "opacity-0"}`}
-        >
-          HERE I AM
-        </p>
+        <h2 className={`p-4`}>Wow, this is Awesome!</h2>
+        <p>Can I just hide in here?</p>
       </div>
     </div>
   );

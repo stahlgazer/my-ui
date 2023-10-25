@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Dropdown() {
   const items = [
     { name: "Go Back", link: "/card" },
-    { name: "Go Forward", link: "/image-card" },
+    { name: "Go Forward", link: "/image-card" }
   ];
   const [isActiveDropdown, setIsActiveDropdown] = useState(false);
 
@@ -35,14 +35,14 @@ export default function Dropdown() {
           opacity: isActiveDropdown ? "1" : "0",
           visibility: isActiveDropdown ? "visible" : "hidden",
         }}
-        className="absolute left-0 top-[70px] w-[200px] rounded-md text-center"
+        className="absolute left-0 top-[70px] w-[200px] rounded-md text-center transition-all"
       >
         {items.map((item, index) => {
           return (
             <Link
               key={index}
               href={item.link}
-              className="block w-full border-2 border-fuchsia-500 bg-black px-7 py-3 first:rounded-t-[5px] last:rounded-b-[5px] hover:bg-fuchsia-500 hover:border-white"
+              className="block border-2 border-fuchsia-500 bg-black py-3 m-1 rounded-md hover:bg-fuchsia-500"
             >
               {item.name}
             </Link>
