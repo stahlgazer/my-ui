@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Dropdown() {
   const items = [
     { name: "Go Back", link: "/card" },
-    { name: "Go Forward", link: "/image-card" }
+    { name: "Go Forward", link: "/image-card" },
   ];
   const [isActiveDropdown, setIsActiveDropdown] = useState(false);
 
@@ -23,7 +23,9 @@ export default function Dropdown() {
         <div className="mx-auto flex">
           Dropdown
           <MoveDown
-            style={{ transform: `rotate(${isActiveDropdown ? "180deg" : "0"})` }}
+            style={{
+              transform: `rotate(${isActiveDropdown ? "180deg" : "0"})`,
+            }}
             className="ml-4 transition ease-in-out"
           />
         </div>
